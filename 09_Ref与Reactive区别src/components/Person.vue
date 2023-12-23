@@ -5,7 +5,7 @@
     <button @click="changePrice">修改车辆价格</button>
     <button @click="changeCar">修改车辆</button>
     <hr>
-    <h2>当前求和为:{{  }}</h2>
+    <h2>当前求和为:{{ sum }}</h2>
     <button @click="changeSum">sum+1</button>
   </div>
 </template>
